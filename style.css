@@ -1,0 +1,72 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #ffe1ec, #fff6d6);
+color: #4a2c2a;
+}
+
+.hero {
+min-height: 100vh;
+text-align: center;
+padding: 40px 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.hero h1 {
+font-size: 42px;
+color: #c2185b;
+}
+
+.hero p {
+font-size: 20px;
+}
+
+button {
+margin-top: 20px;
+padding: 14px 24px;
+border: none;
+border-radius: 25px;
+background: #c2185b;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+.card {
+background: white;
+margin: 25px auto;
+padding: 25px;
+max-width: 800px;
+border-radius: 20px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card h2 {
+color: #c2185b;
+}
+
+.timeline div {
+padding: 12px;
+margin: 10px 0;
+background: #fff0f5;
+border-left: 5px solid #c2185b;
+border-radius: 8px;
+}
+
+ol li {
+margin: 8px 0;
+}
+
+.hidden {
+display: none;
+}
+
+footer {
+text-align: center;
+padding: 30px;
+font-weight: bold;
+}
+
+
