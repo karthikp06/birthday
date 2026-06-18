@@ -81,6 +81,13 @@ display: none;
   text-align: center;
 }
 
+.gallery p {
+  text-align: center;
+  font-weight: bold;
+  color: #c2185b;
+  margin-top: 8px;
+}
+
 footer {
 text-align: center;
 padding: 30px;
