@@ -346,10 +346,23 @@
     setInterval(createHeart, 400);
   </script>
 
-</body>
-
-  <audio id="bgMusic" loop>
+<audio id="bgMusic" loop>
   <source src="birthday-song.mp3" type="audio/mpeg">
 </audio>
+
+<script>
+  function openSurprise() {
+    document.getElementById("surprise").classList.remove("hidden");
+
+    const music = document.getElementById("bgMusic");
+    music.play();
+
+    document.getElementById("surprise").scrollIntoView({ behavior: "smooth" });
+  }
+</script>
+  
+</body>
+
+
   
 </html>
